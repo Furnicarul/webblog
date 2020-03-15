@@ -13,18 +13,18 @@ class App extends React.Component {
         <Layout>
             <Header title="Title" scroll>
                 <Navigation>
-                    <Link to="#">About me</Link>
-                    <Link to="#">Contact</Link>
-                    <Link to="#">Projects</Link>
-                    <Link to="#">Resum</Link>
+                    <Link to="/aboutme">About me</Link>
+                    <Link to="/contact">Contact</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/resume">Resume</Link>
                 </Navigation>
             </Header>
             <Drawer title="Title">
                 <Navigation>
-                    <a href="#">Link</a>
-                    <a href="#">Link</a>
-                    <a href="#">Link</a>
-                    <a href="#">Link</a>
+                    <Link to="/aboutme">About me</Link>
+                    <Link to="/contact">Contact</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/resume">Resume</Link>
                 </Navigation>
             </Drawer>
             <Content>
