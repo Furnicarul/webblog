@@ -2,6 +2,7 @@ import React from "react"
 import "./style.css"
 
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl"
+import { Link } from "react-router-dom"
 
 import Main from "./components/main"
 
@@ -12,10 +13,10 @@ class App extends React.Component {
         <Layout>
             <Header title="Title" scroll>
                 <Navigation>
-                    <a href="#">Link</a>
-                    <a href="#">Link</a>
-                    <a href="#">Link</a>
-                    <a href="#">Link</a>
+                    <Link to="#">About me</Link>
+                    <Link to="#">Contact</Link>
+                    <Link to="#">Projects</Link>
+                    <Link to="#">Resum</Link>
                 </Navigation>
             </Header>
             <Drawer title="Title">
