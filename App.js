@@ -19,7 +19,6 @@ class App extends React.Component {
                     <Link to="/">Home</Link>
                     <Link to="/aboutme">About me</Link>
                     <Link to="/projects">Projects</Link>
-                    <Link to="/resume">Resume</Link>
                 </Navigation>
             </Header>
             <Drawer title="Events">

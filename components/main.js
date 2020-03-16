@@ -3,7 +3,6 @@ import React from "react"
 import LandingPage from "./landingpage"
 import About from "./aboutme"
 import Projects from "./projects"
-import Resume from "./resume"
 
 import HackTheBox from "./hackthebox"
 import Ctf from "./ctf"
@@ -19,7 +18,6 @@ const Main = () => (
     <Route exact path="/" component={LandingPage} />
     <Route path="/aboutme" component={About} />
     <Route path="/projects" component={Projects} />
-    <Route path="/resume" component={Resume} />
     <Route path="/hackthebox" component={HackTheBox} />
     <Route path="/ctf" component={Ctf} />
     <Route path="/writeups" component={Writeups} />
