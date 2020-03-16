@@ -11,20 +11,20 @@ class App extends React.Component {
     return(
       <div className="demo-big-content">
         <Layout>
-            <Header title="Title" scroll>
-                <Navigation>
+            <Header className="header-color" title="Archive" scroll>
+                <Navigation className="nav-hover">
                     <Link to="/aboutme">About me</Link>
                     <Link to="/contact">Contact</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/resume">Resume</Link>
                 </Navigation>
             </Header>
-            <Drawer title="Title">
+            <Drawer title="Events">
                 <Navigation>
-                    <Link to="/aboutme">About me</Link>
-                    <Link to="/contact">Contact</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/resume">Resume</Link>
+                    <Link to="/hackthebox">HackTheBox</Link>
+                    <Link to="/ctf">CTF</Link>
+                    <Link to="/writeups">Writeups</Link>
+                    <Link to="/tryhackm">TryHackMe</Link>
                 </Navigation>
             </Drawer>
             <Content>
