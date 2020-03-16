@@ -13,18 +13,18 @@ class App extends React.Component {
         <Layout>
             <Header className="header-color" title="Archive" scroll>
                 <Navigation className="nav-hover">
+                    <Link to="/">Home</Link>
                     <Link to="/aboutme">About me</Link>
-                    <Link to="/contact">Contact</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/resume">Resume</Link>
                 </Navigation>
             </Header>
             <Drawer title="Events">
-                <Navigation>
+                <Navigation >
                     <Link to="/hackthebox">HackTheBox</Link>
                     <Link to="/ctf">CTF</Link>
                     <Link to="/writeups">Writeups</Link>
-                    <Link to="/tryhackm">TryHackMe</Link>
+                    <Link to="/tryhackme">TryHackMe</Link>
                 </Navigation>
             </Drawer>
             <Content>

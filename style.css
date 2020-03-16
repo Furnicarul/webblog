@@ -1,3 +1,7 @@
 .header-color {
  background-image: linear-gradient(to right top, #973b3b, #934746, #8d5251, #875c5c, #7f6666);
 } 
+
+.error {
+  text-align: center;
+}
