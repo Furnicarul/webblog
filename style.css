@@ -5,3 +5,9 @@
 .error {
   text-align: center;
 }
+
+.spinner {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

@@ -3,8 +3,11 @@ import "./style.css"
 
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl"
 import { Link } from "react-router-dom"
+import { FooterLinkList, FooterSection, Footer } from "react-mdl"
 
 import Main from "./components/main"
+
+import FooterStable from "./components/footer"
 
 class App extends React.Component {
   render(){
@@ -20,7 +23,7 @@ class App extends React.Component {
                 </Navigation>
             </Header>
             <Drawer title="Events">
-                <Navigation >
+                <Navigation>
                     <Link to="/hackthebox">HackTheBox</Link>
                     <Link to="/ctf">CTF</Link>
                     <Link to="/writeups">Writeups</Link>
@@ -31,6 +34,7 @@ class App extends React.Component {
                 <div className="page-content" />
                 <Main/>
             </Content>
+            <FooterStable />
         </Layout>
       </div>
     )

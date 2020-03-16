@@ -9,11 +9,8 @@ class Ecuson extends React.Component {
         <CardTitle style={{color: 'grey', height: '176px', background: 'url(https://cdn1.vectorstock.com/i/1000x1000/38/05/male-face-avatar-logo-template-pictogram-vector-11333805.jpg) center / cover'}}>Info</CardTitle>
         <CardText>
           I am a boy with a very strong passion for Web Development and Cyber Security.
-          I hope you like it and you can learn something from it
+          I hope you like it and you can learn something from it.
         </CardText>
-        <CardActions border>
-            <Button colored>Enjoy</Button>
-        </CardActions>
         <CardMenu style={{color: '#fff'}}>
             <IconButton name="share" />
         </CardMenu>

@@ -1,6 +1,7 @@
 import React from "react"
 
 import { Grid, Cell } from "react-mdl"
+import { Spinner } from "react-mdl"
 
 import Ecuson from "./ecuson"
 
@@ -13,6 +14,9 @@ class Landing extends React.Component {
             <Ecuson />
           </Cell>
         </Grid>
+        <div className="spinner">
+          <Spinner />
+        </div>
       </div>
     )
   }
