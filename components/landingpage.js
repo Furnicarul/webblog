@@ -16,7 +16,7 @@ class Landing extends React.Component {
           </Cell>
         </Grid>
         <div className="spinner">
-          <Chip onClick={e => { window.open('https://github.com/Furnicarul', '_blank'); }} style={{marginLeft: '8px'}}>GitHub </Chip>
+          <Chip onClick={e => { window.open('https://github.com/Furnicarul', '_blank'); }} style={{marginLeft: '8px'}}>GitHub Chip</Chip>
           <Chip onClick={e => { window.open('https://www.hackthebox.eu/home/users/profile/103339', '_blank'); }} style={{marginLeft: '8px'}}>HackTheBox Chip</Chip>
         </div>
       </div>
