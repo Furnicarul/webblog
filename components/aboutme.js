@@ -20,18 +20,20 @@ class About extends React.Component {
             <p>The principle that I guess is like that "Targets to the moon. Even if you do not, at least you will be among the stars."</p>
           </Cell>
           <Cell col={6}>
-            <h2>Other blog where I appear:</h2>
+            <h3>Other blog where I appear:</h3>
             <hr/>
             <h4>https://info.codetap.academy/#students</h4>
+            <hr/>
+            <h3>People that inspired me:</h3>
             <List>
               <ListItem>
-                <ListItemContent icon="person">Bryan Cranston</ListItemContent>
+                <ListItemContent icon="person">Marian Zburlea</ListItemContent>
               </ListItem>
               <ListItem>
-                <ListItemContent icon="person">Aaron Paul</ListItemContent>
+                <ListItemContent icon="person">rwrxrob</ListItemContent>
               </ListItem>
               <ListItem>
-                <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+                <ListItemContent icon="person">The whole HTsP Team</ListItemContent>
               </ListItem>
             </List>
           </Cell>
