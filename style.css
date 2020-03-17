@@ -38,3 +38,18 @@
 .about-grid p {
   font-family: 'Anton', sans-serif;
 }
+
+/* SKILLS PAGE */
+
+.skills-body {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.skills-grid {
+
+  justify-content: center;
+  align-items: center;
+}
