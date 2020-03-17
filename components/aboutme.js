@@ -2,6 +2,8 @@ import React from "react"
 
 import { Grid, Cell } from "react-mdl"
 
+import { List, ListItem, ListItemContent, ListItemAction, Icon } from "react-mdl"
+
 class About extends React.Component {
   render() {
     return(
@@ -13,9 +15,26 @@ class About extends React.Component {
             alt="avatar"
             style={{height: '250px'}}
             />
-            <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>My name is Julian and I'm 16 years old. I'm passionate about programming especially about the web.</p>
+            <p>It was a boring day and I was losing time doing something for myself or my future. Until ... I found a video of Marian about how a student of his has hired himself in 3 months as a web developer. The video lightened my mind and opened the way to a future where I wanted to be!</p>
+            <p>The principle that I guess is like that "Targets to the moon. Even if you do not, at least you will be among the stars."</p>
           </Cell>
-          <Cell col={6}>Half page</Cell>
+          <Cell col={6}>
+            <h2>Other blog where I appear:</h2>
+            <hr/>
+            <h4>https://info.codetap.academy/#students</h4>
+            <List>
+              <ListItem>
+                <ListItemContent icon="person">Bryan Cranston</ListItemContent>
+              </ListItem>
+              <ListItem>
+                <ListItemContent icon="person">Aaron Paul</ListItemContent>
+              </ListItem>
+              <ListItem>
+                <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+              </ListItem>
+            </List>
+          </Cell>
         </Grid>
       </div>
     )

@@ -17,12 +17,24 @@ background: #424242;
 }
 
 .about-body {
+  margin: auto;
+  position: relative; /*in case of error this is wrong */
   width: 100%;
-  background: red;
   height: 100%;
+  justify-content: center;
 }
 
 .about-grid {
+  text-align: center;
   justify-content: center;
   align-items: center;
+  width: 80%;
+}
+
+.about-grid h2 {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.about-grid p {
+  font-family: 'Anton', sans-serif;
 }
