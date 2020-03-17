@@ -2,6 +2,7 @@ import React from "react"
 
 import { Grid, Cell } from "react-mdl"
 import { Spinner } from "react-mdl"
+import { Chip, ChipContact } from "react-mdl"
 
 import Ecuson from "./ecuson"
 
@@ -15,7 +16,8 @@ class Landing extends React.Component {
           </Cell>
         </Grid>
         <div className="spinner">
-          <Spinner />
+          <Chip onClick={e => { window.open('https://github.com/Furnicarul', '_blank'); }} style={{marginLeft: '8px'}}>GitHub </Chip>
+          <Chip onClick={e => { window.open('https://www.hackthebox.eu/home/users/profile/103339', '_blank'); }} style={{marginLeft: '8px'}}>HackTheBox Chip</Chip>
         </div>
       </div>
     )

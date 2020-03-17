@@ -37,7 +37,7 @@ class Skills extends React.Component{
                 <CardTitle expand />
                 <CardActions style={{height: '52px', padding: '16px', background: 'rgba(0,0,0,0.2)'}}>
                   <span style={{color: '#fff', fontSize: '14px', fontWeight: '500'}}>
-                    Profile
+                    Furnicarul
                   </span>
                 </CardActions>
               </Card>
@@ -50,15 +50,13 @@ class Skills extends React.Component{
                   action="Undo">Button color changed.</Snackbar>
               </div>
             </Cell>
-            <Cell col={4} style={{paddingTop: '2em'}}>
+            <Cell col={6} style={{paddingTop: '2em'}}>
               <p>React</p><ProgressBar progress={73} buffer={87} />
               <hr/>
               <p>Angular</p><ProgressBar progress={53} buffer={87} />
               <hr/>
               <p>PUG</p><ProgressBar progress={83} buffer={87} />
-            </Cell>
-            <Cell col={2} style={{paddingTop: '2em'}}>
-              <p>Contact: </p>
+              <hr/>
             </Cell>
         </Grid>
       </div>
