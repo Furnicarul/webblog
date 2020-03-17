@@ -14,7 +14,7 @@ class App extends React.Component {
     return(
       <div className="demo-big-content">
         <Layout>
-            <Header className="header-color" title="Archive" scroll>
+            <Header className="header-color" title="Archive" style={{background: '#424242'}} scroll>
                 <Navigation className="nav-hover">
                     <Link to="/">Home</Link>
                     <Link to="/aboutme">About me</Link>
