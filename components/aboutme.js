@@ -30,7 +30,7 @@ class About extends React.Component {
                 <ListItemContent icon="person">Marian Zburlea</ListItemContent>
               </ListItem>
               <ListItem>
-                <ListItemContent icon="person">rwxrob</ListItemContent>
+                <ListItemContent icon="person">Robin a.k.a The Pwn Master</ListItemContent>
               </ListItem>
               <ListItem>
                 <ListItemContent icon="person">The whole HTsP Team</ListItemContent>
